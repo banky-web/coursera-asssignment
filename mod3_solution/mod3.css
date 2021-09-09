@@ -1,0 +1,50 @@
+.navbar-brand {
+    font-family: "lora", serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.navbar-collapse {
+    background-color: rgb(74, 107, 81);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    opacity: 0.5;
+}
+
+.container-fluid h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+#p {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+
+/* large device */
+
+@media (min-width: 1200px) {
+    .navbar-collapse .navbar-nav {
+        display: none !important;
+    }
+}
+
+
+/* medium device */
+
+@media (min-width: 992px) and(max-width:1199px) {
+    .navbar-collapse .navbar-nav {
+        display: none !important;
+    }
+    #p {
+        padding: 20px;
+        width: 80px;
+    }
+}
